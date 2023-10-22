@@ -5,10 +5,18 @@
 }
 
  body {
-  font-size:'Roboto', sans-serif;
+  font-size:'Montserrat', sans-serif;
+   color: #000000;
 }
+
+ h1,h2,h3,h4,h5,h6{
+   font-family: 'Oswald', sans-serif;
+
+ }
+
+
  .center {
    padding-left: calc(50-vm - 555px);
    padding-right: calc(50-vm - 555px);
-   
+
  }
