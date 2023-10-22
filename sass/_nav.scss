@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  &__list {
+    margin: 0;
+    padding-left: 0;
+
+  }
+  &__item{
+    list-style: none;
+  }
+
+  &__link {
+    color: red;
+    font-size: 24px;
+  }
+}
+
