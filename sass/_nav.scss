@@ -1,32 +1,22 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 .nav {
-  &__list {
-    list-style: ram;
-    display: flex;
+  &__list{
+ list-style: none;
+  display: flex;
     gap: 15px;
-
-
   }
-
-  &__link {
-    text-decoration: none;
-    color: #85AAAB;
+  &__link{
+  text-decoration: none;
+   color: #85AAAB;
     font-size: 18px;
     font-weight: 700;
   }
-
-  &_active {
-    color: #6DE1E3;
-    border: 2px solid currentColor ;
+  &_active{
+  color: #6DE1E3;
+    border-bottom: 2px solid currentColor;
   }
   &:hover,
   &:focus{
-    color: #6de1e3;
+    color: #63cdcf;
   }
 }
-
