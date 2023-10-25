@@ -334,15 +334,22 @@ template {
 }
 
 .nav__list {
-  margin: 0;
-  padding-left: 0;
-}
-.nav__item {
-  list-style: none;
+  list-style: ram;
+  display: flex;
+  gap: 15px;
 }
 .nav__link {
-  color: red;
-  font-size: 24px;
+  text-decoration: none;
+  color: #85AAAB;
+  font-size: 18px;
+  font-weight: 700;
+}
+.nav_active {
+  color: #6DE1E3;
+  border: 2px solid currentColor;
+}
+.nav:hover, .nav:focus {
+  color: #6de1e3;
 }
 
 @font-face {
@@ -386,6 +393,13 @@ template {
   font-weight: bold;
   font-style: normal;
   font-display: swap;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */
