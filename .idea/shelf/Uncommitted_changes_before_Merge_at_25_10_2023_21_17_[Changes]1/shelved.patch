@@ -1,0 +1,54 @@
+Index: sass/_nav.scss
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\r\n.nav {\r\n  &__list{\r\n list-style: none;\r\n    display: flex;\r\n    gap: 15px;\r\n  }\r\n  &__link{\r\n  text-decoration: none;\r\n   color: #85AAAB;\r\n    font-size: 18px;\r\n    font-weight: 700;\r\n  }\r\n  &_active{\r\n  color: #6DE1E3;\r\n    border-bottom: 2px solid currentColor;\r\n  }\r\n  &:hover,\r\n  &:focus{\r\n    color: #63cdcf;\r\n  }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/sass/_nav.scss b/sass/_nav.scss
+--- a/sass/_nav.scss	
++++ b/sass/_nav.scss	
+@@ -1,22 +1,32 @@
++* {
++  margin: 0;
++  padding: 0;
++  box-sizing: border-box;
++}
+ 
+ .nav {
+-  &__list{
+- list-style: none;
++  &__list {
++    list-style: none;
+     display: flex;
+     gap: 15px;
++
++
+   }
+-  &__link{
+-  text-decoration: none;
+-   color: #85AAAB;
++
++  &__link {
++    text-decoration: none;
++    color: #85AAAB;
+     font-size: 18px;
+     font-weight: 700;
+   }
+-  &_active{
+-  color: #6DE1E3;
+-    border-bottom: 2px solid currentColor;
++
++  &_active {
++    color: #6DE1E3;
++    border: 2px solid currentColor ;
+   }
+   &:hover,
+   &:focus{
+-    color: #63cdcf;
++    color: #6de1e3;
+   }
+-}
+\ No newline at end of file
++}
++

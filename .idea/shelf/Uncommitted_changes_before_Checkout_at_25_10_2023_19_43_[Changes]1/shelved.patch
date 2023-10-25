@@ -1,0 +1,17 @@
+Index: sass/style.scss
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>@import \"Global\";\r\n@import \"normalize\";\r\n@import \"nav\";\r\n@import \"Fonts\";\r\n@import \"header\";\r\n@import \"offer\";\r\n@import \"btn\";
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/sass/style.scss b/sass/style.scss
+--- a/sass/style.scss	
++++ b/sass/style.scss	
+@@ -4,4 +4,4 @@
+ @import "Fonts";
+ @import "header";
+ @import "offer";
+-@import "btn";
+\ No newline at end of file
++@import "btn";
