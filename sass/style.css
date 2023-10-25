@@ -5,7 +5,7 @@
 }
 
 body {
-  font-size: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #000000;
 }
 
@@ -409,11 +409,36 @@ header {
   max-width: 454px;
   font-size: 48px;
   line-height: 1.5;
+  margin: 0 0 55px;
 }
 .offer__desc {
   font-size: 24px;
   line-height: 1.5;
   max-width: 325px;
+  margin: 0 0 55px;
+}
+
+.btn {
+  text-transform: uppercase;
+  border: none;
+  background: #2D5E5E;
+  border-radius: 10px;
+  padding: 8px 42px;
+  white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 1.33;
+}
+.btn:hover, .btn:focus {
+  opacity: 7;
+}
+.btn:active {
+  opacity: 4;
 }
 
 /*# sourceMappingURL=style.css.map */
