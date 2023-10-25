@@ -1,7 +1,7 @@
-offer{
+.offer{
   padding-top: 110px;
-  padding-bottom:150px;
-  background-image: url("img/photo to main offer.png");
+  padding-bottom:160px;
+  background-image: url("../img/photo to main offer.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -10,10 +10,15 @@ offer{
       max-width: 454px;
       font-size: 48px;
       line-height: 1.5;
+       margin: 0 0 55px;
   }
   &__desc{
     font-size: 24px;
     line-height: 1.5;
     max-width: 325px;
+    margin: 0 0 55px;
+  }
+  .btn{
+    text-transform: uppercase;
   }
 }

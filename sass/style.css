@@ -5,7 +5,7 @@
 }
 
 body {
-  font-size: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #000000;
 }
 
@@ -13,7 +13,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Oswald", sans-serif;
 }
 
-.center .center {
+.center {
   padding-left: calc(55vw - 555px);
   padding-right: calc(55vw - 555px);
 }
@@ -327,14 +327,8 @@ template {
   display: none;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .nav__list {
-  list-style: ram;
+  list-style: none;
   display: flex;
   gap: 15px;
 }
@@ -346,10 +340,10 @@ template {
 }
 .nav_active {
   color: #6DE1E3;
-  border: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
 }
 .nav:hover, .nav:focus {
-  color: #6de1e3;
+  color: #63cdcf;
 }
 
 @font-face {
@@ -402,24 +396,112 @@ header {
   padding-bottom: 30px;
 }
 
-offer {
+.offer {
   padding-top: 110px;
-  padding-bottom: 150px;
-  background-image: url("img/photo to main offer.png");
+  padding-bottom: 160px;
+  background-image: url("../img/photo to main offer.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
 }
-offer__title {
+.offer__title {
   max-width: 454px;
   font-size: 48px;
   line-height: 1.5;
+  margin: 0 0 55px;
 }
-offer__desc {
+.offer__desc {
   font-size: 24px;
   line-height: 1.5;
   max-width: 325px;
+  margin: 0 0 55px;
+}
+.offer .btn {
+  text-transform: uppercase;
+}
+
+.btn {
+  text-transform: uppercase;
+  border: none;
+  background: #2D5E5E;
+  border-radius: 10px;
+  padding: 6px 42px;
+  white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 1.33;
+  border: 3px transparent;
+}
+.btn__bordered {
+  border: 3px solid #2D5E5E;
+  background: none;
+}
+.btn:hover {
+  background: #2D5E5E;
+}
+.btn:hover, .btn:focus {
+  opacity: 7;
+}
+.btn:active {
+  opacity: 4;
+}
+
+.services {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 60px;
+  gap: 20px;
+  padding-bottom: 37px;
+}
+.services__items {
+  max-width: 300px;
+  text-align: center;
+}
+.services__icon {
+  margin-bottom: 30px;
+}
+.services__tile {
+  font-size: 24px;
+  line-height: 1.33;
+  margin: 0 0 20px;
+  color: #2D5E5E;
+}
+.services__description {
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.about {
+  background-image: url("../img/Rectangle.jpg");
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: overlay;
+  color: white;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: grid;
+  grind-template-columns: 250px 250px 1fr 494px;
+  grid-template-rows: auto 1fr auto;
+  gap: 35px 30px;
+}
+.about__img {
+  grid-row: 1/4;
+  grid-column: 4/5;
+}
+.about__title, .about__desc {
+  grid-column: 1/4;
+  margin: 0;
+  line-height: 1.5;
+}
+.about__title {
+  margin-bottom: 15px;
+  font-size: 36px;
 }
 
 /*# sourceMappingURL=style.css.map */
