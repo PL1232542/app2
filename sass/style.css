@@ -14,8 +14,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .center {
-  padding-left: calc(50-vm - 555px);
-  padding-right: calc(50-vm - 555px);
+  padding-left: calc(55vw - 555px);
+  padding-right: calc(55vw - 555px);
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -327,22 +327,23 @@ template {
   display: none;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .nav__list {
-  margin: 0;
-  padding-left: 0;
-}
-.nav__item {
   list-style: none;
+  display: flex;
+  gap: 15px;
 }
 .nav__link {
-  color: red;
-  font-size: 24px;
+  text-decoration: none;
+  color: #85AAAB;
+  font-size: 18px;
+  font-weight: 700;
+}
+.nav_active {
+  color: #6DE1E3;
+  border-bottom: 2px solid currentColor;
+}
+.nav:hover, .nav:focus {
+  color: #63cdcf;
 }
 
 @font-face {
@@ -386,6 +387,33 @@ template {
   font-weight: bold;
   font-style: normal;
   font-display: swap;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.offer {
+  padding-top: 110px;
+  padding-bottom: 160px;
+  background-image: url("../img/photo to main offer.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.offer__title {
+  max-width: 454px;
+  font-size: 48px;
+  line-height: 1.5;
+}
+.offer__desc {
+  font-size: 24px;
+  line-height: 1.5;
+  max-width: 325px;
 }
 
 /*# sourceMappingURL=style.css.map */
