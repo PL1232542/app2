@@ -13,4 +13,11 @@
   text-decoration: none;
   font-size: 18px;
   line-height: 1.33;
-}
+  &:hover,
+  &:focus {
+    opacity: 7;
+  }
+  &:active{
+    opacity: 4;
+  }
+  }

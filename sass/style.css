@@ -434,5 +434,11 @@ header {
   font-size: 18px;
   line-height: 1.33;
 }
+.btn:hover, .btn:focus {
+  opacity: 7;
+}
+.btn:active {
+  opacity: 4;
+}
 
 /*# sourceMappingURL=style.css.map */
