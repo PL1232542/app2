@@ -417,16 +417,13 @@ header {
   max-width: 325px;
   margin: 0 0 55px;
 }
-.offer .btn {
-  text-transform: uppercase;
-}
 
 .btn {
   text-transform: uppercase;
   border: none;
   background: #2D5E5E;
   border-radius: 10px;
-  padding: 6px 42px;
+  padding: 8px 42px;
   white-space: nowrap;
   display: inline-flex;
   align-items: center;
@@ -436,14 +433,6 @@ header {
   text-decoration: none;
   font-size: 18px;
   line-height: 1.33;
-  border: 3px transparent;
-}
-.btn__bordered {
-  border: 3px solid #2D5E5E;
-  background: none;
-}
-.btn:hover {
-  background: #2D5E5E;
 }
 .btn:hover, .btn:focus {
   opacity: 7;
@@ -475,33 +464,6 @@ header {
 .services__description {
   font-weight: 500;
   line-height: 1.5;
-}
-
-.about {
-  background-image: url("../img/Rectangle.jpg");
-  background-size: cover;
-  background-color: rgba(0, 0, 0, 0.7);
-  background-blend-mode: overlay;
-  color: white;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  display: grid;
-  grind-template-columns: 250px 250px 1fr 494px;
-  grid-template-rows: auto 1fr auto;
-  gap: 35px 30px;
-}
-.about__img {
-  grid-row: 1/4;
-  grid-column: 4/5;
-}
-.about__title, .about__desc {
-  grid-column: 1/4;
-  margin: 0;
-  line-height: 1.5;
-}
-.about__title {
-  margin-bottom: 15px;
-  font-size: 36px;
 }
 
 /*# sourceMappingURL=style.css.map */
