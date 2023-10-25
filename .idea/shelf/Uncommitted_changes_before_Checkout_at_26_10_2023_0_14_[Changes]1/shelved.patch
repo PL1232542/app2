@@ -1,0 +1,64 @@
+Index: index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!doctype html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\"\r\n          content=\"width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0\">\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\r\n    <title> Marin Site</title>\r\n    <link rel=\"stylesheet\" href=\"Css/style.css\">\r\n</head>\r\n<body>\r\n\r\n<header class=\"center\">\r\n    <a href=\"#\" class=\"logo\">\r\n        <img src=\"img/logo.svg\" alt=\"\">\r\n    </a>\r\n    <nav class=\"nav\">\r\n    <ul class=\"nav__list\">\r\n        <li class=\"nav__item\"><a class=\"nav__link\" href=\"#\" alt=\"#\">Главная</a></li>\r\n        <li class=\"nav__item\"><a  class=\"nav__link\" href=\"#\" alt=\"#\">Мероприятия</a></li>\r\n        <li class=\"nav__item\"><a class=\"nav__link\" href=\"#\" alt=\"#\">Контакты</a></li>\r\n        <li class=\"nav__item\"><a class=\"nav__link\" href=\"#\" alt=\"#\">Блог</a></li>\r\n    </ul>\r\n    </nav>\r\n</header>\r\n\r\n\r\n<main>\r\n\r\n    <section class=\"center offer\">\r\n        <h1 class=\"offer title\">\r\n            Ваш личный психолог\r\n            В Кривом Роге\r\n        </h1>\r\n        <p class=\"offer__desc\">\r\n            Личные, семейные и\r\n            групповые консультаци\r\n        </p>\r\n        <a href=\"#\" class=\"btn\">\r\n            УЗНАТЬ БОЛЬШЕ\r\n        </a>\r\n    </section>\r\n\r\n    <section class=\"services center\">\r\n        <article class=\"services__items\">\r\n            <img src=\"img/goal.svg\" alt=\"\">\r\n            <h2 class=\"services__title\">\r\n                Личные консультации\r\n            </h2>\r\n            <p class=\"services__description\">\r\n                Достижения поставленных целей\r\n                бывает сложной задачей, но при правильной поддержке нет ничего не возможного\r\n            </p>\r\n        </article>\r\n    </section>\r\n\r\n    <section class=\"services center\">\r\n        <article class=\"services__items\">\r\n            <img src=\"img/family-room.svg\" alt=\"\">\r\n            <h2 class=\"services__title\">\r\n                Семейная терапия\r\n            </h2>\r\n            <p class=\"services__description\">\r\n                У любой семьи бывают кризисные ситуации, поэтому в такие моменты важно поддерживать друг друга\r\n            </p>\r\n        </article>\r\n    </section>\r\n\r\n    <section class=\"services center\">\r\n        <article class=\"services__items\">\r\n            <img src=\"img/network.svg\" alt=\"\">\r\n            <h2 class=\"services__title\">\r\n                Сенситивные группы\r\n            </h2>\r\n            <p class=\"services__description\">\r\n                Групповые занятия — отличное место, чтобы научиться общаться с окружающими людьми и раскрыть свой потенциал\r\n            </p>\r\n        </article>\r\n    </section>\r\n    <section class=\"centre about\">\r\n        <h2 class=\"about__title\">Немного обо мне</h2>\r\n        <p class=\"about__desc\">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Вдали от всех живут они в буквенных домах на берегу Семантика большого языкового океана. Маленький ручеек Даль журчит по всей стране и обеспечивает ее всеми необходимыми правилами. Эта парадигматическая страна, в которой жаренные члены предложения залетают прямо.</p>\r\n        <a href=\"\" class=\"btn btn__bordered\">\r\n            задать вопрос\r\n        </a>\r\n        <a href=\"#\" class=\"btn\">Хочу консультацию</a>\r\n        <div class=\"about__buttons\"></div>\r\n        <img src=\"img/about%20photo.jpg\" alt=\"\" class=\"about__img\">\r\n    </section>\r\n</main>\r\n\r\n\r\n\r\n\r\n</body>\r\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/index.html b/index.html
+--- a/index.html	
++++ b/index.html	
+@@ -40,53 +40,6 @@
+             УЗНАТЬ БОЛЬШЕ
+         </a>
+     </section>
+-
+-    <section class="services center">
+-        <article class="services__items">
+-            <img src="img/goal.svg" alt="">
+-            <h2 class="services__title">
+-                Личные консультации
+-            </h2>
+-            <p class="services__description">
+-                Достижения поставленных целей
+-                бывает сложной задачей, но при правильной поддержке нет ничего не возможного
+-            </p>
+-        </article>
+-    </section>
+-
+-    <section class="services center">
+-        <article class="services__items">
+-            <img src="img/family-room.svg" alt="">
+-            <h2 class="services__title">
+-                Семейная терапия
+-            </h2>
+-            <p class="services__description">
+-                У любой семьи бывают кризисные ситуации, поэтому в такие моменты важно поддерживать друг друга
+-            </p>
+-        </article>
+-    </section>
+-
+-    <section class="services center">
+-        <article class="services__items">
+-            <img src="img/network.svg" alt="">
+-            <h2 class="services__title">
+-                Сенситивные группы
+-            </h2>
+-            <p class="services__description">
+-                Групповые занятия — отличное место, чтобы научиться общаться с окружающими людьми и раскрыть свой потенциал
+-            </p>
+-        </article>
+-    </section>
+-    <section class="centre about">
+-        <h2 class="about__title">Немного обо мне</h2>
+-        <p class="about__desc">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Вдали от всех живут они в буквенных домах на берегу Семантика большого языкового океана. Маленький ручеек Даль журчит по всей стране и обеспечивает ее всеми необходимыми правилами. Эта парадигматическая страна, в которой жаренные члены предложения залетают прямо.</p>
+-        <a href="" class="btn btn__bordered">
+-            задать вопрос
+-        </a>
+-        <a href="#" class="btn">Хочу консультацию</a>
+-        <div class="about__buttons"></div>
+-        <img src="img/about%20photo.jpg" alt="" class="about__img">
+-    </section>
+ </main>
+ 
+ 

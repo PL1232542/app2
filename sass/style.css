@@ -503,11 +503,5 @@ header {
   margin-bottom: 15px;
   font-size: 36px;
 }
-.btn:hover, .btn:focus {
-  opacity: 7;
-}
-.btn:active {
-  opacity: 4;
-}
 
 /*# sourceMappingURL=style.css.map */
