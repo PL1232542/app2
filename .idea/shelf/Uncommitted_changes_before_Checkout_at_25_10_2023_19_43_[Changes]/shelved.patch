@@ -1,0 +1,14 @@
+Index: sass/_btn.scss
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>.btn {\r\n  text-transform: uppercase;\r\n  border: none;\r\n  background: #2D5E5E;\r\n  border-radius: 10px;\r\n  padding: 8px 42px;\r\n  white-space: nowrap;\r\n  display: inline-flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n  gap: 10px;\r\n  color: white;\r\n  text-decoration: none;\r\n  font-size: 18px;\r\n  line-height: 1.33;\r\n  &:hover,\r\n  &:focus {\r\n    opacity: 7;\r\n  }\r\n  &:active{\r\n    opacity: 4;\r\n  }\r\n  }\r\n
+===================================================================
+diff --git a/sass/_btn.scss b/sass/_btn.scss
+--- a/sass/_btn.scss	
++++ b/sass/_btn.scss	
+@@ -20,4 +20,4 @@
+   &:active{
+     opacity: 4;
+   }
+-  }
++}

@@ -13,9 +13,9 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Oswald", sans-serif;
 }
 
-.center {
-  padding-left: calc(50-vm - 555px);
-  padding-right: calc(50-vm - 555px);
+.center .center {
+  padding-left: calc(55vw - 555px);
+  padding-right: calc(55vw - 555px);
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
